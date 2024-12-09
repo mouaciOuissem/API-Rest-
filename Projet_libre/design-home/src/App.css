@@ -1,0 +1,181 @@
+.App {
+  margin-top: 95px;
+  
+  /* text-align: center;
+  display: flex;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center; */
+  /* color: white; */
+  /* background-image: linear-gradient(79deg, #7439db, #C66FBC 48%, #F7944D); */
+}
+.logout {
+  /* background-color: #d46933eb; */
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+ text-align: right;
+ display: flex;
+  justify-content: flex-end;
+  margin-left: auto; 
+  /* margin-right: 30px; */
+}
+.card-img-top{
+  height: 200px;
+}
+.card-body {
+  flex: 1 1 auto;
+  padding: var(--bs-card-spacer-y) var(--bs-card-spacer-x);
+  color: var(--bs-card-color);
+  background-color: #e0b1734f;
+}/*
+#response.success{
+
+} */
+h6.button-like {
+  display: inline-block;
+  padding: 20px 20px;
+  background-color: #23307d; /* Couleur de fond du bouton */
+  color: #fff; /* Couleur du texte du bouton */
+  border-radius: 4px; 
+  cursor: pointer; 
+  margin-bottom: 30px;
+}
+
+h5.button-like:hover {
+  background-color: #d46933eb; /* Couleur de fond du bouton au survol */
+}
+.logout {
+  /* background-color: #d46933eb; */
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+ text-align: right;
+ display: flex;
+  justify-content: flex-end;
+  margin-left: auto; 
+  /* margin-right: 30px; */
+}
+.btnn
+{
+  background-color: rgb(219, 111, 33);
+  margin: 4px;
+  border: #e8e7e7;
+}
+.logout:hover {
+  background-color: #d32f2f;
+}
+.card{
+  width: 350px;;
+}
+/* admin-header.css */
+
+header {
+  background-color: #d46933eb;
+  color: #fff;
+  padding: 15px;
+}
+
+h1 {
+  margin: 0;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+nav ul li {
+  margin-right: 10px;
+}
+
+nav ul li:last-child {
+  margin-right: 0;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+ /* a:hover {
+  text-decoration: underline;
+} */
+
+.admin-header-button {
+  display: inline-block;
+  padding: 10px 20px;  
+  /* font-size: 14px; */
+  /* font-weight: bold; */
+  text-align: center;
+  text-decoration: none;
+  background-color: #d46933eb;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 100px;
+  /* margin-block-end: 30px; */
+}
+
+.admin-header-button:hover {
+  /* background-color: black; */
+  color : #d46933eb;
+  border: 1px solid black;
+  text-decoration: none;
+  opacity: 0.7;
+}
+
+/* .admin-header-button:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px #0056b3;
+} */
+.info{
+  border: 2px rgb(207, 128, 25) solid;
+  /* width: 5%; */
+  width: fit-content;
+  /* width: 50%; */
+  height: fit-content;
+  margin: auto;
+  padding: 5px;
+  background-color: rgb(247, 228, 201);
+  margin-bottom: 40px;
+}
+
+.profilebutton{
+background-color: #d46933eb;
+border-color: #cf6916;
+margin: 4px;
+}
+
+.btn:hover{
+  background-color: #cf6916;
+  border-color: #cf6916;
+}
+.user{
+  border: solid #cf6916 1px;
+  padding: 10px;
+  padding-bottom: 0px;
+  text-decoration: none;
+  background-color: white;
+  width: 200px;
+  margin-inline-start: 3px;
+}
+.deleteteUser{
+  margin: 10px;
+  background-color: #cf6916;
+}
+.deleteteUser:hover{
+  background-color: #d32f2f;
+}
+.addr{
+  background-color: #ebd0ae4e;
+  border: #cf6916 solid 1px;
+  padding: 10px;
+}

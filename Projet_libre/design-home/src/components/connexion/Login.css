@@ -1,0 +1,60 @@
+.auth-form-container {
+    width: 300px;
+    margin-top: 100px;
+    margin: 100px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+  
+  h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .login-form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px; 
+  }
+  
+  label {
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  input[type="text"],
+  input[type="password"] {
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button[type="submit"] {
+  background-color: #008CBA;
+}
+
+p.success {
+  color: green;
+}
+
+p.error {
+  color: red;
+}
+.profilebutton{
+  background-color: #d46933eb;
+  border-color: #cf6916;
+  margin: 4px;
+  }
+  
